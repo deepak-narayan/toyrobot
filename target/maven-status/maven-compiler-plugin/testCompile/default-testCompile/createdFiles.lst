@@ -1,0 +1,13 @@
+com\iress\toyrobot\inhabitant\Simple2DRobotTest.class
+com\iress\toyrobot\ConsoleToyRobotAppTest.class
+com\iress\toyrobot\command\ReportCommandTest.class
+com\iress\toyrobot\command\RightCommandTest.class
+com\iress\toyrobot\command\CommandFactoryImplTest.class
+com\iress\toyrobot\command\PlaceCommandTest.class
+com\iress\toyrobot\command\ConsoleCommandParserTest.class
+com\iress\toyrobot\command\ExitCommandTest.class
+com\iress\toyrobot\command\MoveCommandTest.class
+com\iress\toyrobot\ConsoleToyRobotAppIntegrationTest.class
+com\iress\toyrobot\command\LeftCommandTest.class
+com\iress\toyrobot\environment\DirectionTest.class
+com\iress\toyrobot\environment\Simple2DUniverseTest.class
