@@ -38,7 +38,9 @@ public class ConsoleToyRobotApp implements ToyRobotApp, AutoCloseable {
 
 		outputStream.println("The Universe has been created! Introduce the Robot into it using the PLACE command\n");
 		
-		try (Scanner in = new Scanner(inputStream).useDelimiter("\n")) {
+		try (Scanner in = new Scanner(inputStream)) {
+			in.useDelimiter("\n");
+			
 			// Keep accepting commands till EXIT
 			String cmdStr = null;
 			CommandParser cmdParser = deps.newConsoleCommandParser();

@@ -7,11 +7,12 @@ Maven for building the project - ensure the maven bin directory is on your PATH.
 
 Building
 --------
-After pulling the project, navigate to the root of the codebase and run the following command to build it:
-> mvn clean install
+- Clone the git project or download a zip from github. If you use an IDE you will want to import the project into your workspace.
+- Navigate to the root of the codebase and run the following command to build it:
+  > mvn clean install
   
-This will compile the code, run tests and build an executable jar  target/toyrobot-0.0.1-SNAPSHOT.jar.
-The tests include an integration test ConsoleToyRobotAppIntegrationTest
+  This will compile the code, run tests and build an executable jar  target/toyrobot-0.0.1-SNAPSHOT.jar.
+  The tests include an integration test ConsoleToyRobotAppIntegrationTest.
 
 Running
 -------
